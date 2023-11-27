@@ -1,0 +1,33 @@
+/* Custom Properties */
+:root {
+  --text: #190f06;
+  --background: #f7ebde;
+  --primary: #e6e68f;
+  --secondary: #d5e5f6;
+  --accent: #2f2fd0;
+}
+
+* {
+  text-align: center;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--background);
+}
+
+.mainDiv {
+  background-color: var(--secondary);
+  border: var(--accent) 2px solid;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+button,
+input {
+  margin-bottom: 10px;
+  background-color: var(--background);
+  border: var(--accent) 2px outset;
+}
